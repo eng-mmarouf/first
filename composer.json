@@ -1,0 +1,21 @@
+{
+    "name": "mmarouf/first",
+    "description": "mmarouf first package",
+    "keywords": ["composer", "package"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "mmarouf",
+            "email": "enjoy-life@hotmail.de"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.4"
+    },
+	"autoload": {
+        "psr-4": {
+            "mmarouf\\": "src/"
+        }
+    }
+}
